@@ -37,7 +37,7 @@
 
 	document.writeln(secs_per_year);
 
-	document.writeln(" seconds per year.</b>");
+	document.writeln(" seconds per year.</b><p>");
 
 	
 	/**************************************************************************
@@ -48,7 +48,12 @@
 	name+" "+verb+" into the library, with the "+adjective+" candlestick."
 	Show the result of your Madlib using document.writeln(Madlib);
 	***************************************************************************/
-	
+	var name= prompt("Enter a name");
+	var verb= prompt("Enter a past-tense verb");
+	var adjective= prompt("Enter a descriptive adjective");
+
+	var madlib = name + " "+ verb + " into the library, with the " + adjective + " candlestick.";
+	document.writeln(madlib);
 		
 	
 // hide this stuff from older browsers -->
