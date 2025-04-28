@@ -1,0 +1,300 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color: whitesmoke;
+	font-family: Arial, Helvetica, san-serif;
+	font-size: medium;
+	color: black;
+	
+}
+
+header{
+	width: 900px;
+	height: 200px;
+	background-color: #3d639c;
+	text-align: center;
+	padding-top: 10px;
+	margin: auto;
+}
+
+section{
+	width: 900px;
+	background-color: antiquewhite
+	background-repeat: repeat-y;
+	overflow: hidden;
+	margin: auto;
+}
+
+nav{
+	float: left;
+	width: 250px;
+}
+
+article{
+	float: left;
+	width: 650px;
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+	width: 900px;
+	height: 70px;
+	background-color: #3d639c;
+	margin: auto;
+}
+
+.logoleft{
+	float: left;
+	padding-top: 0px;
+	padding-left: 15px;
+}
+
+nav a{
+	boder: 6px inset #CCCCCC;
+	background-color: #bd3c25;
+	line-height: 250%;
+	font-weight: bold;
+	font-size: 35px;
+	color: white;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 20px;
+	font-family: Vivaldi;
+}
+
+nav a:hover{
+	color: #cfc7b4;
+	border: 2px outset #CCCCCC;
+}
+
+h1{
+	color: #81191b;
+	text-align: center;
+	font-size: xx-large;
+}
+
+p{
+	color: black;
+}
+
+
+
+@font-face{
+
+	font-family:'Road_Rage';
+	src: url('fonts/Road_Rage.eot'); 
+	src: local('Road_Rage'), url('fonts/Road_Rage.ttf') format('truetype');
+
+
+
+    font-family: 'Montserrat-Regular';
+    src: url('fonts/Montserrat-Regular.eot');
+    src: local('Montserrat-Regular'), url('fonts/Montserrat-Regular.ttf') format('truetype');
+
+
+
+    font-family:'Montserrat-Bold';
+    src: url('fonts/Montserrat-Bold.eot');
+    src: local('Montserrat-Bold'), url('fonts/Montserrat-Bold.ttf') format('truetype');
+
+
+
+    font-family:'BebasNeue-Regular';
+    src: url('fonts/BebasNeue-Regular.eot');
+    src: local('BebasNeue-Regular'), url('fonts/BebasNeue-Regular.ttf') format('truetype');
+
+}
+
+
+
+body{ 
+
+    font-family: Montserrat-Regular, Arial, Helvetica, sans-serif;
+    background-color: #dbe1e8;
+    margin: 0 10%;
+
+}
+
+
+
+h1{
+
+    font-size: 40px;
+
+    text-align: center;
+
+    margin-bottom: -10;
+
+    font-family: Road_Rage, BebasNeue-Regular, Arial, Helvetica, sans-serif;
+
+    color: #bd3c25;
+
+}
+
+
+
+h1.about{
+
+    font-family: Montserrat-Bold, BebasNeue-Regular, Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: #4a5f7e;
+
+}
+
+
+
+h2 {
+
+    font-family: Montserrat-Regular, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    text-align: left;
+
+}
+
+
+
+#header{
+
+    margin-top: 0;
+    padding: .5em 1em 1em 1em;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .3);
+
+}
+
+
+
+.thumbnailleft{
+
+	float: left;
+	padding-right: 10px;
+
+}
+
+
+
+.thumbnailright{
+
+	float: right;
+	padding-left: 10px;
+
+
+
+}
+
+
+
+
+
+a:link{
+
+    color: #3d639c;
+
+}
+
+
+
+a:visited{
+
+    color: #81191b;
+
+}
+
+
+
+a:hover{
+
+    color: #9166a4;
+  
+
+}
+.centertable{
+
+    margin: 0px auto;
+
+}
+
+
+
+.center{
+
+   text-align: center;
+
+   margin: 0 auto;
+
+   width: 90%;
+
+}
+
+
+
+table, th, td{
+
+    font-family: Montserrat-Regular, Arial, Helvetica, sans-serif;
+
+    background-color: rgba(255, 255, 255, .3);
+
+    border: 1.5px solid black;
+
+    border-collapse: separate;
+
+    border-spacing: 15px;
+
+    padding: 6px 50px 6px 50px;
+
+    width: 100%;
+
+    
+
+}
+
+
+
+caption{
+
+   font-family: Montserrat-Bold, BebasNeue-Regular, Arial, Helvetica, sans-serif;
+
+   color: #4a5f7e;
+
+   font-weight: bold;
+
+   background-color: rgba(255, 255, 255, .3);
+
+   border: 1.5px solid black;
+
+   height: 40px;
+
+   padding-top: 10px;
+
+   text-align: center;
+
+   font-size: 25px;
+
+}
+
+
+
+.adventure{
+
+    background-color: rgba(223, 173, 1, .2);
+
+    font-size: 18px;
+
+    width: 50%;
+
+}
+
+
+
+.duration{
+
+    background-color: rgba(223, 173, 1, .2);
+
+    font-size: 18px;
+
+}
